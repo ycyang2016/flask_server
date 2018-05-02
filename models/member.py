@@ -10,14 +10,12 @@ class Member(db.Model):
     __tablename__ = 'your table name'
     account      = Column('account'       , String(50), primary_key=True, nullable=False)
     passwd       = Column('passwd'        , String(128))
-    name         = Column('name'          , String(50))
     secret_key   = Column('secret_key'    , String(50))
     token        = Column('token'         , String(256))
     #if you have other columns, you can write here
 
-    def __init__(self, account, passwd, name, email, _type, **args):
+    def __init__(self, account, passwd, **args):
         self.account = account    
-        self.name    = name
         self.secret_key  = uuid1()
         self.token       = None
         self.hash_password(passwd)
