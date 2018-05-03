@@ -16,12 +16,13 @@ Install python
 Install python package
 ```
 sudo pip install --upgrade pip
-sudo pip install flask \
-			flask_wtf \
-			Flask-SQLAlchemy \
-			flask_httpauth \
-			passlib \
-			itsdangerous
+sudo pip install -y
+	flask \
+	flask_wtf \
+	Flask-SQLAlchemy \
+	flask_httpauth \
+	passlib \
+	itsdangerous
 ```
 Install the flask server
 ``git clone https://github.com/ycyang2016/flask_server``
