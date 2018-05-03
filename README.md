@@ -1,6 +1,6 @@
 Flask_server
 =============
-A development environment of flask server, the server include password and token authorization
+A development environment of flask server, the server include password and token authorization.
 
 Install
 -------------
@@ -33,7 +33,7 @@ git clone https://github.com/ycyang2016/flask_server
 
 Quick start server
 -------------
-Before run this code, you have to make some preparation 
+Before run this code, you have to make some preparation.
 
 ### Database
 >you have to create a database and table in mysql server.
@@ -56,7 +56,7 @@ python run_server.py <Development|Production> [--port|--threaded|--process]
 > python run_server.py Development --port 12345
 
 * <>: This is config settings. The file in [settings/environment.py](https://github.com/ycyang2016/flask_server/tree/master/settings/environment.py). Development means use the Development class.
-* \-\-port: server listen port number
-* \-\-threaded: server allow the number of thread run at the same time
-* \-\-process: server allow the number of process run at the same time
+* \-\-port: server listen port number.
+* \-\-threaded: server allow the number of thread run at the same time.
+* \-\-process: server allow the number of process run at the same time.
 
