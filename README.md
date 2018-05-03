@@ -130,3 +130,13 @@ app.add_url_rule('/hello/class', func=hello_class, method=['GET'])
 
 >>Step 2. You have to prepare api testing tool, like [**Postman**](https://www.getpostman.com/apps) or [**Insomnia**](https://insomnia.rest/download/). Then, you have to choose **Bearer Token** in a tool and input correct token.
 Finally, you will get the same result as http://your.server.ip:port/hello/class
+
+More infomations
+-------------------
+### Packeage introduction
+* flask: API server
+* flask_wtf: Avoided Cross-site request forgery attack (CSRF)
+* Flask-SQLAlchemy: Modularization database operation
+* flask_httpauth: oauth, token, basic or multi authorization
+* passlib: entropy user password
+* itsdangerous: make a token by user infomation and server secret key
