@@ -123,10 +123,10 @@ from myapp import hello_func, hello_class
 app.add_url_rule('/hello/func' , func=hello_func , method=['GET'])
 app.add_url_rule('/hello/class', func=hello_class, method=['GET'])
 ```
-Then, you just run the server and link url http://your.server.ip:port/hello/class by your bowser. Server will make inquiries of you about account and password. If you input correct account and password, server will return 'hello word, user.'. Otherwise, server will reject the access.
+* Then, you just run the server and link url http://your.server.ip:port/hello/class by your bowser. Server will make inquiries of you about account and password. If you input correct account and password, server will return 'hello word, user.'. Otherwise, server will reject the access.
 
-If you want to test http://your.server.ip:port/hello/func, you must follow two step.
->Step 1. Use http://your.server.ip:port/auth to login server, and get token
+* If you want to test http://your.server.ip:port/hello/func, you must follow two step.
+>>Step 1. Use http://your.server.ip:port/auth to login server, and get token
 
->Step 2. You have to prepare api testing tool, like [**Postman**](https://www.getpostman.com/apps) or [**Insomnia**](https://insomnia.rest/download/). Then, you have to choose **Bearer Token** in a tool and input correct token.
+>>Step 2. You have to prepare api testing tool, like [**Postman**](https://www.getpostman.com/apps) or [**Insomnia**](https://insomnia.rest/download/). Then, you have to choose **Bearer Token** in a tool and input correct token.
 Finally, you will get the same result as http://your.server.ip:port/hello/class
