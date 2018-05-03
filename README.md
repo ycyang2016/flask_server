@@ -128,6 +128,6 @@ Then, you just run the server and link url http://your.server.ip:port/hello/clas
 If you want to test http://your.server.ip:port/hello/func, you must follow two step.
 >Step 1. Use http://your.server.ip:port/auth to login server, and get token
 
->Step 2. you have to prepare api testing tool, like **Postman** or **Insomnia**. You have to choose **Bearer Token** in a tool and input correct token.
+>Step 2. you have to prepare api testing tool, like [**Postman**](https://www.getpostman.com/apps) or [**Insomnia**](https://insomnia.rest/download/). You have to choose **Bearer Token** in a tool and input correct token.
 
 then, you will get the same result as http://your.server.ip:port/hello/class
