@@ -11,7 +11,9 @@ Install python
 	sudo apt-get install python2.7 python-pip
 	```
 * CentOS
-		``` sudo yum update```
+	``` 
+	sudo yum update
+	```
 
 Install python package
 ```
@@ -25,7 +27,9 @@ sudo pip install -y
 	itsdangerous
 ```
 Install the flask server
-```git clone https://github.com/ycyang2016/flask_server```
+```
+git clone https://github.com/ycyang2016/flask_server
+```
 
 Quick start server
 -------------
