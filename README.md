@@ -4,21 +4,22 @@ A development environment of flask server, the server include password and token
 
 Install
 -------------
-Install python
+Install python and development package
 * Ubuntu
 	```
 	sudo apt-get update
-	sudo apt-get install python2.7 python-pip
+	sudo apt-get install python2.7 python-pip python-dev libmysqlclient-dev
 	```
 * CentOS
 	``` 
 	sudo yum update
+	sudo yum install python-devel mysql-devel
 	```
 
 Install python package
 ```
 sudo pip install --upgrade pip
-sudo pip install -y
+sudo pip install MySQL-python \
 	flask \
 	flask_wtf \
 	Flask-SQLAlchemy \
